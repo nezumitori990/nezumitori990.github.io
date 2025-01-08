@@ -1,11 +1,11 @@
 body {
-	display: flex; /*ƒtƒŒƒbƒNƒXƒ{ƒbƒNƒX‚ğg—p*/
-	margin: 0; /*—]”’ƒŠƒZƒbƒg*/
-	padding: 0; /*—]”’ƒŠƒZƒbƒg*/
-	font-family: Arial, sans-serif; /*ƒtƒHƒ“ƒg‚Ìí—Ş*/
+	display: flex; /*ãƒ•ãƒ¬ãƒƒã‚¯ã‚¹ãƒœãƒƒã‚¯ã‚¹ã‚’ä½¿ç”¨*/
+	margin: 0; /*ä½™ç™½ãƒªã‚»ãƒƒãƒˆ*/
+	padding: 0; /*ä½™ç™½ãƒªã‚»ãƒƒãƒˆ*/
+	font-family: Arial, sans-serif; /*ãƒ•ã‚©ãƒ³ãƒˆã®ç¨®é¡*/
 }
 
-nav { /*html‚Ìnavƒ^ƒO‚ÉƒXƒ^ƒCƒ‹‚ğ“K—p‚·‚é‚Æ‚«‚Ég‚¤*/
+nav { /*htmlã®navã‚¿ã‚°ã«ã‚¹ã‚¿ã‚¤ãƒ«ã‚’é©ç”¨ã™ã‚‹ã¨ãã«ä½¿ã†*/
 	width: 200px;
 	background-color: #333;
 	color: white;
@@ -14,7 +14,7 @@ nav { /*html‚Ìnavƒ^ƒO‚ÉƒXƒ^ƒCƒ‹‚ğ“K—p‚·‚é‚Æ‚«‚Ég‚¤*/
 	box-sizing: border-box;
 }
 
-nav a { /*nav‚ÌƒŠƒ“ƒN*/
+nav a { /*navã®ãƒªãƒ³ã‚¯*/
 	display: block;
 	color: white;
 	padding: 10px;
@@ -23,12 +23,13 @@ nav a { /*nav‚ÌƒŠƒ“ƒN*/
 	border-radius: 5px;
 }
 
-nav a:hover { /*ƒŠƒ“ƒN‚ÉƒJ[ƒ\ƒ‹‚ ‚í‚¹‚½‚ç*/
+nav a:hover { /*ãƒªãƒ³ã‚¯ã«ã‚«ãƒ¼ã‚½ãƒ«ã‚ã‚ã›ãŸã‚‰*/
 	background-color: #555;
 }
 
 .content {
-	flex-grow: 1; /* ƒtƒŒƒbƒNƒXƒ{ƒbƒNƒX‚Ì—]”’‚ğ–„‚ß‚éŠ„‡‚ğw’è */
-	padding: 20px; /* —v‘f‚Ì“à‘¤‚Ì—]”’‚ğ20px‚Éİ’è */
+	flex-grow: 1; /* ãƒ•ãƒ¬ãƒƒã‚¯ã‚¹ãƒœãƒƒã‚¯ã‚¹ã®ä½™ç™½ã‚’åŸ‹ã‚ã‚‹å‰²åˆã‚’æŒ‡å®š */
+	padding: 20px; /* è¦ç´ ã®å†…å´ã®ä½™ç™½ã‚’20pxã«è¨­å®š */
 	box-sizing: border-box;
+	display: block;
 }
