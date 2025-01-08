@@ -12,6 +12,7 @@ nav { /*htmlのnavタグにスタイルを適用するときに使う*/
 	height: 500vh;
 	padding: 20px;
 	box-sizing: border-box;
+	flex-shrink: 0;
 }
 
 nav a { /*navのリンク*/
